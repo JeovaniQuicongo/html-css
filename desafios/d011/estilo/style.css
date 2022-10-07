@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    height: 200px;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header > p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+header > p a{
+    color: white;
+    font-weight: bold;
+}
+header > p a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: lightgray;
+    padding: 5px;
+    
+}
+.container{
+    background-color: white;
+}
+.conteudo{
+    background-color: white;
+}
+.conteudo > p{
+    margin: 10px;
+}
+#container{
+    background-color: darkcyan;
+
+}
+#conteudo{
+    background-color: rgba(0, 0, 0, 0.199);
+    
+    width: 300px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+footer a{
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+}
